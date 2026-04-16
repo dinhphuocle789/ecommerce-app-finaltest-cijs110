@@ -1,0 +1,177 @@
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$r/XZa5keGTyv.nPs7k8VQeH2ETuMRjrdmfe66RZQO9jBTKji3lK2a",
+      "name": "Dinh Phuoc Le",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "email": "shop1@gmail.com",
+      "password": "$2a$10$niMaJ0RKIpjoaV8cznZThOAE72Yo9Ii2tfwep33eU4S5ZBmQJbsAW",
+      "name": "Nguyen Van Nike",
+      "role": "shop",
+      "id": 2
+    },
+    {
+      "email": "shop2@gmail.com",
+      "password": "$2a$10$XbT61c2A.q.Lk7yom1ssWelcIUGPJDizviTLrjwMk5YUtHbOyph9.",
+      "name": "Pham Quoc Tech",
+      "role": "shop",
+      "id": 3
+    },
+    {
+      "email": "customer1@gmail.com",
+      "password": "$2a$10$wSX1I5lijkUvMupJKuDfw.Ln87eRqdCzkoqnLFhYxZMIsslfFdfre",
+      "name": "Customer One",
+      "role": "user",
+      "id": 4
+    }
+  ],
+  "shops": [
+    {
+      "ownerId": 2,
+      "name": "Nike VN Store",
+      "description": "Chuyên cung cấp giày Nike chính hãng và phụ kiện thể thao cao cấp.",
+      "logo": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200&q=80",
+      "category": "Thời trang & Thể thao",
+      "status": "active",
+      "createdAt": "2026-04-16",
+      "id": 1
+    },
+    {
+      "ownerId": 3,
+      "name": "Tech World",
+      "description": "Thiết bị điện tử, công nghệ và phụ kiện chính hãng từ các thương hiệu lớn.",
+      "logo": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=200&q=80",
+      "category": "Điện tử & Công nghệ",
+      "status": "active",
+      "createdAt": "2026-04-16",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "shopId": 1,
+      "name": "Giày Sneaker Nike Air Max",
+      "price": 2500000,
+      "category": "Giày",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80",
+      "description": "Giày sneaker Nike Air Max với đệm khí thoải mái.",
+      "stock": 30
+    },
+    {
+      "id": 2,
+      "shopId": 1,
+      "name": "Áo Thun Oversize Basic",
+      "price": 350000,
+      "category": "Áo",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80",
+      "description": "Áo thun oversize form rộng thoải mái, cotton 100%.",
+      "stock": 100
+    },
+    {
+      "id": 3,
+      "shopId": 2,
+      "name": "Tai Nghe Sony WH-1000XM5",
+      "price": 8500000,
+      "category": "Điện tử",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80",
+      "description": "Tai nghe chống ồn hàng đầu, pin 30 giờ.",
+      "stock": 15
+    },
+    {
+      "id": 4,
+      "shopId": 1,
+      "name": "Túi Tote Canvas Premium",
+      "price": 450000,
+      "category": "Túi",
+      "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=500&q=80",
+      "description": "Túi tote canvas cao cấp, bền đẹp.",
+      "stock": 50
+    },
+    {
+      "id": 5,
+      "shopId": 1,
+      "name": "Đồng Hồ Casio G-Shock",
+      "price": 3200000,
+      "category": "Đồng hồ",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+      "description": "Đồng hồ G-Shock chống va đập, chống nước 200m.",
+      "stock": 20
+    },
+    {
+      "id": 6,
+      "shopId": 1,
+      "name": "Kính Mát Polarized UV400",
+      "price": 680000,
+      "category": "Phụ kiện",
+      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&q=80",
+      "description": "Kính mát phân cực chống tia UV400.",
+      "stock": 45
+    },
+    {
+      "id": 7,
+      "shopId": 2,
+      "name": "Bình Nước Giữ Nhiệt Stanley",
+      "price": 1200000,
+      "category": "Gia dụng",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&q=80",
+      "description": "Bình nước giữ nhiệt 1L, lạnh 24h nóng 12h.",
+      "stock": 60
+    },
+    {
+      "id": 8,
+      "shopId": 2,
+      "name": "Ốp Lưng iPhone 15 Pro Leather",
+      "price": 320000,
+      "category": "Phụ kiện",
+      "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500&q=80",
+      "description": "Ốp lưng da thật cao cấp cho iPhone 15 Pro.",
+      "stock": 80
+    },
+    {
+      "id": 9,
+      "shopId": 1,
+      "name": "Quần Jogger Premium Cotton",
+      "price": 550000,
+      "category": "Quần",
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80",
+      "description": "Quần jogger cotton premium, form slim taper.",
+      "stock": 70
+    },
+    {
+      "id": 10,
+      "shopId": 2,
+      "name": "Bàn Phím Cơ Keychron K2",
+      "price": 2800000,
+      "category": "Điện tử",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&q=80",
+      "description": "Bàn phím cơ không dây, switch Brown, đèn RGB.",
+      "stock": 25
+    },
+    {
+      "id": 11,
+      "shopId": 2,
+      "name": "Nước Hoa Calvin Klein One",
+      "price": 1500000,
+      "category": "Làm đẹp",
+      "image": "https://images.unsplash.com/photo-1541643600914-78b084683702?w=500&q=80",
+      "description": "Nước hoa unisex 100ml, hương tươi mát.",
+      "stock": 35
+    },
+    {
+      "id": 12,
+      "shopId": 2,
+      "name": "Sách Đắc Nhân Tâm",
+      "price": 120000,
+      "category": "Sách",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500&q=80",
+      "description": "Kỹ năng giao tiếp và xây dựng mối quan hệ.",
+      "stock": 200
+    }
+  ],
+  "orders": []
+}
